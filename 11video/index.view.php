@@ -8,8 +8,8 @@
 <body>
     <h1><?= $business['name'] ?></h1>
     <ul>
-       <?php foreach ($business['categories'] as $category) : ?>
-        <li><?php $category ?></li>
+       <?php foreach ($business['catagories'] as $category) : ?>
+        <li><?= $category; ?></li>
        <?php endforeach; ?>
     </ul>
 </body>

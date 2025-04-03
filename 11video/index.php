@@ -3,7 +3,7 @@
 $business = [
     'name' => 'Laracasts',
     'cost' => 15,
-    'catagories' => ["Testing" , "PHP" ,"JavaScript"],
+    'catagories' => ['Testing' , 'PHP' ,'JavaScript'],
 ];
   
 function register($user){
@@ -12,4 +12,5 @@ function register($user){
   //Send a wellcome email
   //Redirect to their new dashboard
 }
- include "11video.index.view.php";
+ include "index.view.php";
+ ?>
